@@ -333,7 +333,7 @@ int main(int argc, char* argv[]) {
             std::cout << "Take a cup of coffee, we begin running the experiments...\n";
             ExperimentResults exp(ROUNDS, seed, elems_n, pairs);
 
-            //exp.run_all_union_experiments<None>();
+            exp.run_all_union_experiments<None>();
             exp.run_all_union_experiments<Full>();
             exp.run_all_union_experiments<Splitting>();
             exp.run_all_union_experiments<Halving>();

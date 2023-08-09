@@ -9,7 +9,7 @@
 //
 // Run the demo as:
 //
-//  ./demo N | ./demo | dot -Tpng > result.png
+//  ./demo N | dot -Tpng > result.png
 //
 // Note: to change the compression strategy you need to modify
 // the template parameter and recompile
